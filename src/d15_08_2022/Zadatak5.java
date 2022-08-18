@@ -16,7 +16,8 @@ public class Zadatak5 {
 
 		stampajKarakter(karakter, brojKaraktera);
 
-//---------------------------------------------------------		
+//---------------------------------------------------------
+//Ovo dole je nebitan deo, čisto da na kraju ispiše KRAJ PROGRAMA	
 		System.out.println();
 		System.out.println("--------------------");
 		System.out.println("KRAJ PROGRAMA!");
