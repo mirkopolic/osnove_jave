@@ -1,5 +1,6 @@
 src/p*/
 src/v*/
+src/t*/
 .metadata
 bin/
 tmp/
