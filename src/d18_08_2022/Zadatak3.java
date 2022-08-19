@@ -3,6 +3,7 @@ package d18_08_2022;
 public class Zadatak3 {
 
 	public static void main(String[] args) {
+		
 //		ZA VEZBANJE)Kreirati klasu SmartAirConditioning koja ima:
 //			●	atribut za marku klime (npr: Samsung, Galanz, Gree, …)
 //			●	atribut za potrosnju elektricne energije dok hladi (npr 1kW/h)

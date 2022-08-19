@@ -3,6 +3,7 @@ package d18_08_2022;
 public class Zadatak1 {
 
 	public static void main(String[] args) {
+		
 //		1.	Napisati klasu Proizvod koja ima atribute
 //		a.	naziv proizvoda (String)
 //		b.	cenu proizvoda (double)
