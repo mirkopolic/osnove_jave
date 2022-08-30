@@ -8,12 +8,10 @@ public class Listic {
 	public Listic() {
 
 	}
-	
+
 	public void setKombinacije(Kombinacija komb) {
 		this.kombinacije.add(komb);
 	}
-
-
 
 	public ArrayList<Kombinacija> getKombinacije() {
 		return kombinacije;
@@ -22,7 +20,7 @@ public class Listic {
 	public boolean dobitna(Kombinacija izvucena) {
 		for (int i = 0; i < this.kombinacije.size(); i++) {
 //			if (this.kombinacije.get(i).daLiJeIstaKombinacija(izvucena)) {
-				if (this.kombinacije.get(i).pogodak(izvucena)) {	
+			if (this.kombinacije.get(i).pogodak(izvucena)) {
 				return true;
 			}
 
