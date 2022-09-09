@@ -26,6 +26,9 @@ public class PlaninarskiDomMain {
 		pd.uclaniPlaninara(dragan);
 
 		pd.izbaciPlaninara(16444);
+		
+		maja.setPoeni(20);
+		jagoda.setPoeni(10);
 
 		System.out.println("Na " + rtanj.getIme() + " (" + rtanj.getVisina() + ") uspesno ce se popeti "
 				+ pd.uspesnoCeSePopeti(rtanj) + " planinara");
