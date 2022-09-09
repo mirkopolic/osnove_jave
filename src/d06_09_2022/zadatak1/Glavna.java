@@ -27,6 +27,7 @@ public class Glavna {
 		mirko.dodajAmbalazu(t2);
 		mirko.dodajAmbalazu(t3);
 		mirko.dodajAmbalazu(t4);
+		mirko.izbaciAmbalazu("323122-56565");
 		
 		mirko.stampajKorpu();
 		
