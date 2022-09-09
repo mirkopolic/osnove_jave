@@ -36,20 +36,20 @@ public class Korpa {
 		}
 		return cena;
 	}
-	
+
 	private double cenaSvihAmbalazaSaPopustom(int popust) {
 		double cena = 0.0;
 		for (int i = 0; i < this.nizAmb.size(); i++) {
 			cena += this.nizAmb.get(i).cenaArtikla();
 		}
-		return cena - popust;
+		return (cena - popust < 0) ? 0 : cena - popust;
 	}
 
 	public double cenaKorpe(SuperKartica kartica) {
 
 		return this.cenaSvihAmbalazaSaPopustom(this.getKartica().getPopust());
 	}
-	
+
 	public void stampajKorpu() {
 		for (int i = 0; i < this.nizAmb.size(); i++) {
 			this.nizAmb.get(i).stampaj();
